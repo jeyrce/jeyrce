@@ -1,0 +1,254 @@
+<!--
+1. 此模板进行一键渲染，最后丢回前端的是静态页面，修改时只需修改yml文件。
+2. 之所以不用ajax直接从json读取原因是，这样大量使用js渲染对于seo不友好。
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="{{ icon }}"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {% for item in seo %}
+    <meta name="{{ item.key }}" content="{{ item.value }}"/>
+    {% endfor %}
+    <title>{{ title }}</title>
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="description" content="{{ description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+    <header>
+        <!--    轮播图    -->
+        <div class="banner row" id="banner">
+            <!--     background img       -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+                {% for img in banner.images %}
+                <div class="slide">
+                    <img src="{{ img }}" width="1024" height="682" alt="">
+                </div>
+                {% endfor %}
+            </div>
+            <!--      轮播图文字部分      -->
+            <div class="bannerText container">
+                <h1>{{ banner.desc.title }}</h1>
+                <p>{{ banner.desc.detail }}</p>
+                <a href="#aboutme" class="mbnt">关于我</a>
+            </div>
+        </div>
+        <!--  菜单条  -->
+        <div class="menu">
+            <div class="navbar-wrapper">
+                <div class="container">
+                    <div class="navwrapper">
+                        <div class="navbar navbar-inverse navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">导航</a>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav nav-justified">
+                                        <li class="first menuItem homeLink active"><a href="#wrapper">首页</a></li>
+                                        <li class="menuItem"><a href="#aboutme">关于我</a></li>
+                                        <li class="menuItem"><a href="#technical">技能</a></li>
+                                        <li class="menuItem"><a href="#experience">经历</a></li>
+                                        <li class="menuItem"><a href="#references">项目</a></li>
+                                        <li class="menuItem"><a href="#contact">联系我</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--   关于我   -->
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+                    <div class="heading clearfix"><h2>关于我</h2></div>
+                    <div id="description">
+                        <!--描述-->
+                        {% for line in aboutme.lines %}
+                        <p>{{ line }}</p>
+                        {% endfor %}
+                    </div>
+                    <!--地址连接-->
+                    <div class="aboutmeLinks">
+                        {% for link in aboutme.links %}
+                        <a href="{{ link.url }}" class="btnDownload" target="_blank">{{ link.title }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  技能掌握  -->
+    <section class="technical" id="technical">
+        <div class="container">
+            <div class="heading">
+                <h2 id="technical_title">技能</h2>
+                <p>{{ skill.desc }}</p>
+            </div>
+            <!--技能列表-->
+            <div class="row">
+                {% for item in skill.skills %}
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="{{ item.percent }}"><span class="percent"></span></span>
+                        <h4>{{ item.name }}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--  工作经历  -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="heading">
+                <h2>经历</h2>
+                <p>{{ experience.desc }}</p>
+            </div>
+            {% for work in experience.works %}
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">{{ work.start }}</span>
+                        <span class="afterY">{{ work.end }}</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>{{ work.company }}</h4>
+                        <h5>{{ work.job }}</h5>
+                        <p>{{ work.detail }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <!-- 项目经验 -->
+    <section class="references" id="references">
+        <div class="container">
+            <div class="heading">
+                <h2>项目</h2>
+                <p>{{ program.desc }}</p>
+            </div>
+            <div class="row waterfall" data-col-min-width="300">
+                {% for item in program.programs %}
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="{{ item.link }}" target="_blank">{{ item.name }}</a></h3>
+                        <br>
+                        <p>{{ item.desc }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <!--联系我-->
+    <section class="contact" id="contact">
+        <div class="container topCon">
+            <div class="heading">
+                <h2>联系我</h2>
+            </div>
+        </div>
+    </section>
+    <!--联系方式-->
+    <section class="contactDetails">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p><i class="icon icon-envelope"></i><a>{{ contact.email }}</a></p>
+                <p><i class="icon icon-link"></i><a href="{{ contact.page }}" target="_blank">{{ contact.page }}</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+            {% for line in footer.lines %}
+            <div style="text-align: center"><p>{{ line }}</p></div>
+            {% endfor %}
+            <!--            <ul>-->
+            <!--                <li><a href="{{ footer.home }}" target="_blank"><i class="icon icon-github icon-2x"></i></a></li>-->
+            <!--            </ul>-->
+            <!--回到顶部-->
+            <span class="totop"><i class="icon icon-chevron-up"></i></span>
+        </div>
+    </section>
+</div>
+
+<!------------------seo-baidu----------------->
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+<!---------------seo-360---------------->
+<script>
+    (function () {
+        var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49" : "https://jspassport.ssl.qhimg.com/11.0.1.js?fca335b403c00338ac4edd15a7415d49";
+        document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+</script>
+
+<!--js代码-->
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/jquery.waterfall.js"></script>
+<script src="./js/stickUp.js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(document).ready(function () {
+            //enabling stickUp on the '.navbar-wrapper' class
+
+            $('.navbar-wrapper').stickUp({
+                parts: {
+                    0: 'wrapper',
+                    1: 'aboutme',
+                    2: 'technical',
+                    3: 'experience',
+                    4: 'references',
+                    5: 'contact'
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+        });
+    });
+</script>
+<script src="./js/jquery.superslides.js"></script>
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/custom.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+# 从这里修改文件比较简单(支持html标签), 之后执行python make.py 可以生成对应的index.html静态页
+# push到coding自动更新pages, 在线地址为: https://me.lujianxin.com/
+
+# --------------------------------header部分---------------------------------
+title: Jeyrce.Lu-陆鉴鑫-个人简历
+icon: https://www.lujianxin.com/static/image/favicon.ico
+keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、Jeyrce
+description: 一个假装文艺的后端程序员
+
+# seo平台验证
+seo:
+  - key: baidu-site-verification
+    value: 8VnRCQnw7Z
+  - key: shenma-site-verification
+    value: ed5d4e80c572827fbe7613c32ef4c1be_1561717247
+  - key: 360-site-verification
+    value: 37c5d131d288d26f5091b1f25eb28c48
+  - key: sogou_site_verification
+    value: FxLjWABP4A
+  - key: msvalidate.01
+    value: 725274B06FEC1DAE34DA835E37A6D5D5
+  - key: google-site-verification
+    value: C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw4
+
+
+# --------------------------------轮播图---------------------------------
+banner:
+  images:
+    - images/header-image/header-bg1.jpg
+    - images/header-image/header-bg2.jpg
+    - images/header-image/header-bg3.jpg
+    - images/header-image/header-bg4.jpg
+  desc:
+    title: 我叫Jeyrce.Lu(陆鉴鑫)
+    detail: 后端开发工程师，毕业于<a href="http://www.huat.edu.cn/" target="_blank">湖北汽车工业学院</a>，2019.05~至今在<a href="http://www.woqutech.com/" target="_blank">杭州沃趣科技</a>工作。
+
+# --------------------------------关于我---------------------------------
+aboutme:
+  lines:
+    - 我是来自杭州的后端开发工程师，2014届湖北汽车工业学院电子信息工程专业本科毕业生，大四有过半年的实习经历，2018年6月份开始第一份后端开发工作，至今已经有两年后端开发经验。
+    - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用，了解Vue、jQuery、Bootstrap等前端常用框架；目前正在更加深入的学习编程底层原理、数据库技术、数据分析和可视化技术。
+    - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
+  links:
+    - url: https://www.lujianxin.com/
+      title: 个人博客
+    - url: https://github.com/Jeyrce
+      title: github
+    - url: https://me.lujianxin.com/
+      title: web简历
+
+# --------------------------------技能---------------------------------
+skill:
+  desc: 作为一名开发人员，面对日新月异的技术，保持一种学习的习惯。目前我的技能以web开发这个技术栈为中心，以下是我的技能及掌握情况。
+  skills:
+    - name: Django、Flask、Tornado
+      percent: 85
+    - name: Linux
+      percent: 60
+    - name: Git
+      percent: 75
+    - name: MySQL
+      percent: 70
+    - name: Prometheus、Alertmanager、Grafana
+      percent: 80
+    - name: Redis、Mongodb
+      percent: 70
+    - name: request、socket、urllib
+      percent: 70
+    - name: xpath、re、schema
+      percent: 65
+    - name: Celery、Channels、rest_framework
+      percent: 60
+    - name: Nginx、supervisor、uWsgi
+      percent: 60
+    - name: Oracle
+      percent: 40
+    - name: Vue、jQuery、Bootstrap
+      percent: 40
+    - name: Beego
+      percent: 30
+    - name: Gin
+      percent: 40
+
+# --------------------------------工作经历---------------------------------
+experience:
+  desc: 2018年6月，毕业于湖北汽车工业学院，从此开始了自己的后端开发工程师生涯。第一家的时候自己还是一个职场新人，主要是在实际项目中不断学习，提升自己的后端开发技能和经验。第二家便是如今所在单位：杭州沃趣科技。我很喜欢沃趣积极向上、务实高效、学习氛围浓厚的工作环境，希望我和沃趣一起成长。
+  works:
+    - start: 2019-05
+      end: 至今
+      company: 杭州沃趣科技股份有限公司
+      job: 后端开发工程师
+      detail: 主要负责QDataCloud监控告警模块负责人，通过Promtheus、Alertmanager、Grafana、Loki等组件集成和二次开发，实现服务器软硬件的监控告警，参与运维平台功能开发等。获2020年度“百折不挠奖”。
+    - start: 2018-06
+      end: 2019-03
+      company: 杭州麦杰思物联网科技有限公司
+      job: 后端开发工程师
+      detail: 一家以新零售为风口的创业型公司，主要产品是无人货柜，2018年11月被杭州中亚机械股份有限公司收购。以小程序Spriteye为用户入口，利用重力+视觉算法识别商品，互联网技术为连接实现的无人货柜。
+    - start: 2014-09
+      end: 2018-06
+      company: 湖北汽车工业学院
+      job: 电子信息工程
+      detail: 在校主修课程：Python、c语言、数据结构、计算机网络、汇编原理、单片机、FPGA、DSP等。曾获荣誉：人民奖学金三等、优秀志愿工作者、志愿者社团宣传部长、CET4等。
+
+# --------------------------------项目经验---------------------------------
+program:
+  desc: 下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，部分项目无法访问，请见谅！</b>
+  programs:
+    - name: QData-Cloud数据库一体机运维平台
+      link: 'javascript: void(0);'
+      desc: 沃趣科技QData产品web管理平台，由tornado框架构建而成。基于web页面我们可对oracle数据库一体机进行集群管理，监控可视化，告警配置等操作，极大提高了运维效率。
+    - name: 基于opencv的无人货柜人脸识别系统
+      link: 'javascript: void(0);'
+      desc: 采用opencv + baidu-aip + pyqt5和平板电脑，实现了用户注册账户并录入人脸后, 无需携带手机, 刷脸即可在无人货柜开门购物, 关门自动结算。产品已经成功在2019第七届中国(广州)国际自助售货系统与设施博览会展出, 获得了良好的评价。
+    - name: U选便利后台管理系统和小程序
+      link: 'javascript: void(0);'
+      desc: 使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人货柜后台管理以及支付宝小程序后端系统，系统和小程序现已在线上稳定运行。
+    - name: 联华鲸选无人便利店后台管理系统
+      link: 'javascript: void(0);'
+      desc: 使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人便利店后台管理系统部分模块，系统暂未上线运行。主要参与了后台管理系统中审批流程、权限系统、ERP系统的设计，实现了商品队列流转机制、权限和审批流程自由搭配的功能模块，设计预留了城配物流、亲情账户等备用功能模块。
+    - name: 个人博客
+      link: https://www.lujianxin.com/
+      desc: 因为我本身喜欢读写博客，索性自己购买域名和服务器自己动手搭建一个自己的专属博客。博客采用django + redis + nginx + xadmin + ueditor等插件完成，访客部分则采用来必力云评论插件完成。
+    - name: django-date-dump
+      link: https://github.com/jeeyshe/django-date-dump
+      desc: 基于django-restframework框架开发的一个小插件，用以通过简单的配置快速对django的model表导出excel表格，其中字段自定义，自持扩展，sheet数量自定义。
+
+# --------------------------------联系方式---------------------------------
+contact:
+  email: jeyrce@gmail.com
+  page: https://www.lujianxin.com/
+
+# --------------------------------网站底部---------------------------------
+footer:
+  lines:
+    - 千里马常有而伯乐不常有，你会成为我的伯乐么？
+  home: https://www.lujianxin.com/
+
