@@ -2,10 +2,10 @@
 # push到coding自动更新pages, 在线地址为: https://me.lujianxin.com/
 
 # --------------------------------header部分---------------------------------
-title: Jeyrce.Lu-陆鉴鑫-个人简历
+title: Jeyrce.Lu-陆鉴鑫的个人主页
 icon: https://www.lujianxin.com/static/image/favicon.ico
 keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、Jeyrce
-description: 一个假装文艺的后端程序员
+description: 一个为实现coding自由而coding的程序员
 
 # seo平台验证
 seo:
@@ -41,12 +41,12 @@ aboutme:
     - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用，了解Vue、jQuery、Bootstrap等前端常用框架；目前正在更加深入的学习编程底层原理、数据库技术、数据分析和可视化技术。
     - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
   links:
-    - url: https://www.lujianxin.com/
-      title: 个人博客
-    - url: https://github.com/Jeyrce
+    - url: https://lujianxin.com/
+      title: 个人主页
+    - url: https://github.com/jeyrce
       title: github
-    - url: https://me.lujianxin.com/
-      title: web简历
+    - url: https://ioseek.cn/
+      title: 修齐方法论
 
 # --------------------------------技能---------------------------------
 skill:
@@ -133,5 +133,5 @@ contact:
 footer:
   lines:
     - 千里马常有而伯乐不常有，你会成为我的伯乐么？
-  home: https://www.lujianxin.com/
+  home: https://ioseek.cn/
 
