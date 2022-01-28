@@ -1,26 +1,17 @@
 # 从这里修改文件比较简单(支持html标签), 之后执行python make.py 可以生成对应的index.html静态页
-# push到coding自动更新pages, 在线地址为: https://me.lujianxin.com/
+# 之后可以使用github pages 等托管服务进行托管
+# 也可直接使用dockerfile进行构建镜像自包含nginx代理服务
 
 # --------------------------------header部分---------------------------------
-title: Jeyrce.Lu-陆鉴鑫的个人主页
-icon: https://www.lujianxin.com/static/image/favicon.ico
-keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、Jeyrce
+title: 陆鉴鑫的个人主页-Jeyrce.Lu
+icon: https://lujianxin.com/static/image/favicon.ico
+keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce
 description: 一个为实现coding自由而coding的程序员
 
 # seo平台验证
 seo:
-  - key: baidu-site-verification
-    value: 8VnRCQnw7Z
-  - key: shenma-site-verification
-    value: ed5d4e80c572827fbe7613c32ef4c1be_1561717247
-  - key: 360-site-verification
-    value: 37c5d131d288d26f5091b1f25eb28c48
-  - key: sogou_site_verification
-    value: FxLjWABP4A
-  - key: msvalidate.01
-    value: 725274B06FEC1DAE34DA835E37A6D5D5
-  - key: google-site-verification
-    value: C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw4
+  - key: google-site-verification-x
+    value: C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw49
 
 
 # --------------------------------轮播图---------------------------------
@@ -37,49 +28,46 @@ banner:
 # --------------------------------关于我---------------------------------
 aboutme:
   lines:
-    - 我是来自杭州的后端开发工程师，2014届湖北汽车工业学院电子信息工程专业本科毕业生，大四有过半年的实习经历，2018年6月份开始第一份后端开发工作，至今已经有两年后端开发经验。
-    - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用，了解Vue、jQuery、Bootstrap等前端常用框架；目前正在更加深入的学习编程底层原理、数据库技术、数据分析和可视化技术。
+    - 我是来自杭州的后端开发工程师，2014届湖北汽车工业学院电子信息工程专业本科毕业生，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
+    - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用；
+    - 目前主要负责团队监控告警业务模块，基于<b>prometheus</b>相关组件结合业务需求进行二次开发。
     - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
   links:
     - url: https://lujianxin.com/
       title: 个人主页
     - url: https://github.com/jeyrce
       title: github
+    - url: http://blog.lujianxin.com/
+      title: 个人博客【旧版】
     - url: https://ioseek.cn/
       title: 修齐方法论
 
 # --------------------------------技能---------------------------------
 skill:
-  desc: 作为一名开发人员，面对日新月异的技术，保持一种学习的习惯。目前我的技能以web开发这个技术栈为中心，以下是我的技能及掌握情况。
+  desc: 熟练使用 Golang/Python 编程语言进行服务端开发或服务器工具开发。以下是我的技能及掌握情况。
   skills:
-    - name: Django、Flask、Tornado
+    - name: 熟练掌握Prometheus，Alertmanger监控告警架构，有自己的技术沉淀
       percent: 85
-    - name: Linux
-      percent: 60
-    - name: Git
-      percent: 75
-    - name: MySQL
-      percent: 70
-    - name: Prometheus、Alertmanager、Grafana
+    - name: 熟练掌握gin, gorm为代表的resultful框架
       percent: 80
-    - name: Redis、Mongodb
+    - name: 熟练掌握以Django、Tornado 为代表的web开发框架
+      percent: 85
+    - name: 熟练使用mysql, redis, mongodb 等常用SQL/NoSQL数据库
       percent: 70
-    - name: request、socket、urllib
+    - name: 熟练使用Linux服务器, Docker容器开发部署环境
       percent: 70
-    - name: xpath、re、schema
-      percent: 65
-    - name: Celery、Channels、rest_framework
-      percent: 60
-    - name: Nginx、supervisor、uWsgi
-      percent: 60
-    - name: Oracle
-      percent: 40
-    - name: Vue、jQuery、Bootstrap
-      percent: 40
-    - name: Beego
-      percent: 30
-    - name: Gin
-      percent: 40
+    - name: 有大量处理客户现场问题的经验和方法沉淀
+      percent: 70
+    - name: 良好的沟通演讲能力，曾多次组织项目复盘和技术分享会
+      percent: 70
+    - name: 了解k8s云原生相关技术组件
+      percent: 50
+    - name: 了解js注入，SQL注入，shell注入原理及常见攻防策略
+      percent: 50
+    - name: 了解消息队列，分布式锁等分布式组件
+      percent: 50
+    - name: 了解服务器，磁盘，网络，交换机等硬件知识
+      percent: 50
 
 # --------------------------------工作经历---------------------------------
 experience:
