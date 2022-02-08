@@ -4,7 +4,7 @@
 
 # --------------------------------header部分---------------------------------
 title: 陆鉴鑫的个人主页-Jeyrce.Lu
-icon: https://lujianxin.com/static/image/favicon.ico
+icon: http://blog.lujianxin.com/static/image/favicon.ico
 keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce
 description: 一个为实现coding自由而coding的程序员
 
@@ -12,7 +12,6 @@ description: 一个为实现coding自由而coding的程序员
 seo:
   - key: google-site-verification-x
     value: C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw49
-
 
 # --------------------------------轮播图---------------------------------
 banner:
@@ -22,13 +21,13 @@ banner:
     - images/header-image/header-bg3.jpg
     - images/header-image/header-bg4.jpg
   desc:
-    title: 我叫Jeyrce.Lu(陆鉴鑫)
-    detail: 后端开发工程师，毕业于<a href="http://www.huat.edu.cn/" target="_blank">湖北汽车工业学院</a>，2019.05~至今在<a href="http://www.woqutech.com/" target="_blank">杭州沃趣科技</a>工作。
+    title: 我叫陆鉴鑫(Jeyrce.Lu)
+    detail: 后端开发工程师(python，golang)，2018年毕业于湖北汽车工业学院电子信息工程，2019.05~至今在杭州沃趣科技工作。
 
 # --------------------------------关于我---------------------------------
 aboutme:
   lines:
-    - 我是来自杭州的后端开发工程师，2014届湖北汽车工业学院电子信息工程专业本科毕业生，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
+    - 我是来自杭州的后端开发工程师，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
     - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用；
     - 目前主要负责团队监控告警业务模块，基于<b>prometheus</b>相关组件结合业务需求进行二次开发。
     - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
