@@ -2,13 +2,14 @@
 hub=docker.io
 imageName=jeyrce/jeyrce:latest
 tag=${hub}/${imageName}
+commitId=$(shell git rev-parse --short HEAD)
 
 .phony: all
 all: image index
 
 .phony: image
 image:
-	docker build -t ${tag} .
+	docker build --build-arg commitId=${commitId} -t ${tag} .
 	docker push ${tag}
 
 .phony: index

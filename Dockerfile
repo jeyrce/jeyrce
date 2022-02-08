@@ -8,14 +8,14 @@ RUN pip install -r requirements.txt \
     python make.py
 
 FROM --platform=linux/amd64 nginx:1.21.5-alpine AS runner
-MAINTAINER jeyrce<jeyrce@gmail.com>
+ARG commitId
+LABEL commitId="${commitId}" \
+      maintainer="jeyrce<jeyrce@gmail.com>" \
+      gitRepo="https://github.com/jeyrce/jeyrce" \
+      page="https://ioseek.cn/"
 WORKDIR /jeyrce
-COPY css/ css/
-COPY font/ font/
-COPY images/ images/
-COPY js/ js/
+COPY . .
 COPY --from=builder /jeyrce/index.html .
-COPY 404.html README.md ./
-COPY nginx.conf /etc/nginx/nginx.conf
+RUN mv nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 CMD /usr/sbin/nginx -c /etc/nginx/nginx.conf
