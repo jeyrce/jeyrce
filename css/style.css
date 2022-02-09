@@ -2,8 +2,10 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: url("../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot");
-    src: local('Open Sans'), local('OpenSans'), url("../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot") format('embedded-opentype'), url("../font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format('woff');
+    src: url('../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot');
+    src: local('Open Sans'), local('OpenSans'),
+    url('../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot') format('embedded-opentype'),
+    url('../font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
 * {
@@ -117,7 +119,6 @@ h5 {
     /*padding:0;*/
 }
 
-
 /*----------------------------------------------------
  3. Header Part
 ------------------------------------------------------*/
@@ -129,7 +130,7 @@ header {
 .banner {
     overflow: hidden;
     margin: 0 auto !important;
-    background: #CACACA;
+    background: #cacaca;
     display: none;
 }
 
@@ -172,7 +173,7 @@ header {
     line-height: 40px;
     color: #fff;
     font-size: 14px;
-    background-color: #EF7674;
+    background-color: #ef7674;
     text-transform: uppercase;
     padding: 0 29px;
     margin: 0 10px;
@@ -192,22 +193,17 @@ header {
     /*text-transform: uppercase;*/
 }
 
-
 /*------------------------------------
     3.1 Slide show background control
 --------------------------------------*/
-
 
 /*---------------------------------------------------------------------------------
  4. Background slider CSS style
 -------------------------------------------------------------------------------*/
 
-
 /* Grid wrapper sizes */
 
-
 /* Shadow style */
-
 
 /*----------------------------------------------------
  5. Menu Style
@@ -250,7 +246,8 @@ header {
 }
 
 .navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {}
+.navbar-inverse .navbar-toggle:focus {
+}
 
 .navbar-brand {
     margin-top: 4px;
@@ -259,7 +256,6 @@ header {
 .nav .menuItem a {
     font-size: 19px;
 }
-
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 
@@ -303,8 +299,8 @@ header {
     line-height: 140px;
     text-align: center;
     font-weight: 800;
-    // transition-duration: 0.2s;
-    // -webkit-transition-duration: 0.2s;
+/ / transition-duration: 0.2 s;
+/ / -webkit-transition-duration: 0.2 s;
 }
 
 .navbar.navbar-inverse.navbar-static-top .nav li.first {
@@ -325,8 +321,8 @@ header {
     color: #ef7674;
 }
 
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus {
     background: #ffffff;
     /*color:#c3c8d6;*/
     color: #ef7674;
@@ -339,19 +335,16 @@ header {
     color: #ef7674;
 }
 
-.navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav > .active > a:hover {
     /*background:#1b1f29;*/
     /*color:#fff;*/
     background: #ffffff;
     color: #ef7674;
 }
 
-
 /* Since positioning the image, we need to help out the caption */
 
-
 /* Declare heights because of positioning of img element */
-
 
 /*----------------------------------------------------
  6. About me Style
@@ -369,8 +362,8 @@ header {
 }
 
 .aboutCont {
-    // padding-bottom: 78px;
-    // padding-left: 48px;
+/ / padding-bottom: 78 px;
+/ / padding-left: 48 px;
 }
 
 .aboutmeLinks {
@@ -378,10 +371,10 @@ header {
 }
 
 #description {
-    // height: 250px;
+/ / height: 250 px;
     overflow: hidden;
     position: relative;
-    // padding-right: 50px;
+/ / padding-right: 50 px;
     margin-bottom: 60px;
     text-align: justify;
 }
@@ -422,14 +415,13 @@ header {
     display: inline-block;
 }
 
-
 /*----------------------------------------------------
  7. Technical Skills Style
 ------------------------------------------------------*/
 
 .technical {
     /*background:#eeeeee;
-    color:#474d5d;*/
+      color:#474d5d;*/
 }
 
 .technical .container {
@@ -468,7 +460,7 @@ header {
 
 .technical .skills h4 {
     font-weight: 700;
-    // text-transform: uppercase;
+/ / text-transform: uppercase;
     font-size: 17px;
     line-height: 27px;
     padding-bottom: 11px;
@@ -506,9 +498,8 @@ header {
 .percent:after {
     content: '%';
     margin-left: 0.1em;
-    font-size: .8em;
+    font-size: 0.8em;
 }
-
 
 /*----------------------------------------------------
  8. Work Experience Style
@@ -618,22 +609,20 @@ header {
     padding-bottom: 11px;
 }
 
-
 /*----------------------------------------------------
  9. Education Style
 ------------------------------------------------------*/
-
 
 /*----------------------------------------------------
  10. Protfolio Style
 ------------------------------------------------------*/
 
-
 /*----------------------------------------------------
  14. references Style
 ------------------------------------------------------*/
 
-.references {}
+.references {
+}
 
 .references .container {
     padding-top: 140px;
@@ -654,7 +643,7 @@ header {
 }
 
 .references p {
-    color: #897f8a
+    color: #897f8a;
 }
 
 .refBox {
@@ -662,7 +651,7 @@ header {
 }
 
 .refBoxcon {
-    background: #FFF;
+    background: #fff;
     padding: 50px 34px 41px;
     border-bottom: #e6e6e6 5px solid;
 }
@@ -689,7 +678,6 @@ header {
 .refBox {
     padding: 0 10px;
 }
-
 
 /*----------------------------------------------------
  11. Get in tuch Style
@@ -747,7 +735,6 @@ header {
 .contactDetails i {
     padding-right: 15px;
 }
-
 
 /*----------------------------------------------------
  12. Footer Style
@@ -814,7 +801,6 @@ header {
     text-align: center;
 }
 
-
 /*---------------------------------------------------------------------------------
  13. Responsive style
 -------------------------------------------------------------------------------*/
@@ -822,8 +808,8 @@ header {
 @media screen and (min-width: 1200px) {
     .workYear {
         /*width:140px;
- height:140px;
- padding-top:50px;*/
+     height:140px;
+     padding-top:50px;*/
     }
 }
 
@@ -831,9 +817,11 @@ header {
     .navbar.navbar-inverse.navbar-static-top .nav li {
         padding-left: 25px;
     }
+
     .navbar.navbar-inverse.navbar-static-top a {
         line-height: 140px;
     }
+
     .nav .menuItem a {
         font-size: 14px;
     }
@@ -842,13 +830,15 @@ header {
 @media screen and (max-width: 991px) {
     .navbar.navbar-inverse.navbar-static-top a {
         /* padding-left:12px;
- padding-right:12px;
- font-size:12px;*/
+     padding-right:12px;
+     font-size:12px;*/
     }
+
     .bannerText {
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .bannerText h1 {
         font-size: 65px;
         line-height: 71px;
@@ -859,6 +849,7 @@ header {
     body {
         min-height: 700px;
     }
+
     .navbar.navbar-inverse.navbar-static-top a {
         /* padding-left: 17px;*/
     }
@@ -882,6 +873,7 @@ header {
         padding-right: 15px;
         padding-left: 15px;
     }
+
     .navbar.navbar-inverse.navbar-static-top a {
         line-height: 43px;
     }
@@ -891,28 +883,34 @@ header {
     .navbar-header {
         display: block;
     }
+
     .workYear {
         margin: 0 auto 20px;
         overflow: hidden;
     }
+
     .workYear span {
         width: 100%;
         margin-right: 0;
     }
+
     .workDetails .rightArea {
         border-left: none;
     }
+
     .arrowpart {
         /* float:none;
- width:100%;
- height:40px;
- background:url(../images/arrow-top.png) no-repeat 50% 100%;*/
+     width:100%;
+     height:40px;
+     background:url(../images/arrow-top.png) no-repeat 50% 100%;*/
         background: none;
     }
+
     .exCon {
         margin-left: 0px;
         padding: 0;
     }
+
     ul.navbar-nav li a {
         display: block;
     }
@@ -922,11 +920,13 @@ header {
     #wrapper {
         top: 200px !important;
     }
+
     .bannerText {
         top: 25%;
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .bannerText h1 {
         font-size: 42px;
         line-height: 48px;
@@ -939,16 +939,20 @@ header {
         padding-top: 11px;
         padding-bottom: 11px;
     }
+
     .navbar.navbar-inverse.navbar-static-top a.navbar-brand {
         line-height: 22px;
     }
+
     .bannerText {
         top: 10%;
     }
+
     .bannerText h1 {
         font-size: 34px;
         line-height: 38px;
     }
+
     .bannerText p {
         font-size: 16px;
         padding-bottom: 32px;
@@ -982,4 +986,20 @@ h5 {
 
 a:hover {
     text-decoration: none;
+}
+
+.for_the_record {
+    text-align: center;
+    font-family: 'Microsoft YaHei', sans-serif;
+    padding-top: 6px;
+}
+
+.for_the_record a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.for_the_record a:hover {
+    color: #00c1de;
 }
