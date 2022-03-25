@@ -6,10 +6,10 @@
 
 [![Jeyrce's github stars](https://github-readme-stats.vercel.app/api?username=jeyrce)](https://github.com/jeyrce)
 
-<img width="500px"  src="https://lujianxin.com/static/image/mp.wechat.png" alt="微信公众号.png">
+<img width="500px"  src="./images/mp-mini.png" alt="微信公众号.png">
 
 乐于思考，长期活跃在GitHub和stackoverflow上，在各大开源项目提过不少issue。
 
-有 [个人博客](https://ioseek.cn/) , 分享一些后端开发经验，偶尔也写一写文学作品。
+搭建了 [个人博客](https://ioseek.cn/) , 分享一些后端开发经验，偶尔也写一写文学作品。
 
 爱读书，爱听歌，爱骑车，爱桌球。代码不是生活的全部。
