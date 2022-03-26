@@ -1,4 +1,4 @@
-baseURL = 'www.lujianxin.com'
+baseURL = '/'
 languageCode = 'zh-cn'
 title = "Jeyrce's page"
 theme = 'github-style'
