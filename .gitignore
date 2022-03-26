@@ -1,0 +1,7 @@
+.idea/
+*.swp
+*.swap
+*.log
+*.tmp
+.DS_Store
+

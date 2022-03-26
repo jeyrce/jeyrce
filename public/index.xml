@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeyrce&#39;s page</title>
+    <link>www.lujianxin.com/</link>
+    <description>Recent content on Jeyrce&#39;s page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="www.lujianxin.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>README</title>
+      <link>www.lujianxin.com/readme/</link>
+      <pubDate>Sat, 26 Mar 2022 19:14:36 +0800</pubDate>
+      
+      <guid>www.lujianxin.com/readme/</guid>
+      <description>尝试使用hugo静态页面组织page来作为个人主页</description>
+    </item>
+    
+  </channel>
+</rss>
