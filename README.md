@@ -6,7 +6,7 @@
 
 [![Jeyrce's github stars](https://github-readme-stats.vercel.app/api?username=jeyrce)](https://github.com/jeyrce)
 
-<img width="500px"  src="./images/mp-mini.png" alt="微信公众号.png">
+<img width="500px"  src="http://oss.ioseek.cn/mp-mini.png" alt="微信公众号.png">
 
 乐于思考，长期活跃在GitHub和stackoverflow上，在各大开源项目提过不少issue。
 
