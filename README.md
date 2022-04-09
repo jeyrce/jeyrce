@@ -1,4 +1,4 @@
-关于我
+🌈 关于我
 ---
 
 <img width="836px" src="http://oss.ioseek.cn/x/gopher-run.gif" alt="gopher">
