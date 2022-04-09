@@ -3,7 +3,7 @@
 
 <img width="836px" src="http://oss.ioseek.cn/x/gopher-run.gif" alt="gopher">
 
-- 我是是一名来自中国杭州的 Go/Python 后端工程师
+- 我是一名来自中国杭州的 Go/Python 后端工程师
 - 现就职于 [杭州沃趣科技股份有限公司](http://www.woqutech.com)
 - 2018年毕业于 [湖北汽车工业学院](https://www.huat.edu.cn/)
 
@@ -16,7 +16,7 @@
 
 爱读书，爱听歌，爱骑车，爱桌球。代码不是生活的全部。
 
-<img width="496px"  src="http://oss.ioseek.cn/mp-mini.png" alt="微信公众号.png">
+<img width="494px"  src="http://oss.ioseek.cn/mp-mini.png" alt="微信公众号.png">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jeyrce&theme=github" alt="">
 
 <!--
