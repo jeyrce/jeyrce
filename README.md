@@ -3,11 +3,11 @@
 
 <img width="836px" src="http://oss.ioseek.cn/x/gopher-run.gif" alt="gopher">
 
-* 我是一名来自中国杭州的 Go/Python 后端工程师
+* 我是一名来自中国武汉的 Go/Python 后端工程师。
 
-* 现就职于 [杭州沃趣科技股份有限公司](http://www.woqutech.com)
+* 现就职于 [武汉统信软件技术有限公司](https://www.uniontech.com)。
 
-* 2018年毕业于 [湖北汽车工业学院](https://www.huat.edu.cn/)
+* 专注于云计算、服务端开发。
 
 [![Jeyrce's github stars](https://github-readme-stats.vercel.app/api?username=jeyrce)](https://github.com/jeyrce)
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeyrce&theme=github" alt="">
