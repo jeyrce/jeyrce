@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt \
     --no-cache-dir && \
     python make.py
 
-FROM --platform=linux/amd64 nginx:1.21.5-alpine AS runner
+FROM --platform=linux/amd64 nginx:1.22.0-alpine AS runner
 ARG commitId
 LABEL commitId="${commitId}" \
       maintainer="jeyrce<jeyrce@gmail.com>" \

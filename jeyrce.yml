@@ -3,7 +3,7 @@
 # 也可直接使用dockerfile进行构建镜像自包含nginx代理服务
 
 # --------------------------------header部分---------------------------------
-title: 陆鉴鑫的个人主页-Jeyrce.Lu
+title: 信息展示-Jeyrce.Lu
 icon: http://blog.lujianxin.com/static/image/favicon.ico
 keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce
 description: 一个为实现coding自由而coding的程序员
@@ -22,12 +22,12 @@ banner:
     - images/header-image/header-bg4.jpg
   desc:
     title: 我叫陆鉴鑫(Jeyrce.Lu)
-    detail: 后端开发工程师(python，golang)，2018年毕业于湖北汽车工业学院电子信息工程，2019.05~至今在杭州沃趣科技工作。
+    detail: 后端开发工程师(python，golang)，2018至今从事云计算、devops等领域工作。
 
 # --------------------------------关于我---------------------------------
 aboutme:
   lines:
-    - 我是来自杭州的后端开发工程师，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
+    - 我是来自武汉的后端开发工程师，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
     - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用；
     - 目前主要负责团队监控告警业务模块，基于<b>prometheus</b>相关组件结合业务需求进行二次开发。
     - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
@@ -38,7 +38,7 @@ aboutme:
       title: github
     - url: http://blog.lujianxin.com/
       title: 个人博客【旧版】
-    - url: https://ioseek.cn/
+    - url: https://imseek.cn/
       title: 修齐方法论
 
 # --------------------------------技能---------------------------------
@@ -53,13 +53,13 @@ skill:
       percent: 85
     - name: 熟练使用mysql, redis, mongodb 等常用SQL/NoSQL数据库
       percent: 70
-    - name: 熟练使用Linux服务器, Docker容器开发部署环境
+    - name: 熟练使用Linux服务器, Docker、swarm等容器开发部署环境
       percent: 70
     - name: 有大量处理客户现场问题的经验和方法沉淀
       percent: 70
     - name: 良好的沟通演讲能力，曾多次组织项目复盘和技术分享会
       percent: 70
-    - name: 了解k8s云原生相关技术组件
+    - name: 熟悉k8s云原生相关技术组件
       percent: 50
     - name: 了解js注入，SQL注入，shell注入原理及常见攻防策略
       percent: 50
@@ -70,10 +70,15 @@ skill:
 
 # --------------------------------工作经历---------------------------------
 experience:
-  desc: 2018年6月，毕业于湖北汽车工业学院，从此开始了自己的后端开发工程师生涯。第一家的时候自己还是一个职场新人，主要是在实际项目中不断学习，提升自己的后端开发技能和经验。第二家便是如今所在单位：杭州沃趣科技。我很喜欢沃趣积极向上、务实高效、学习氛围浓厚的工作环境，希望我和沃趣一起成长。
+  desc: 2018年6月毕业于湖北汽车工业学院，开始了自己的后端开发工程师生涯。
   works:
-    - start: 2019-05
+    - start: 2022-05
       end: 至今
+      company: 统信软件技术有限公司
+      job: 后端开发工程师
+      detail: 主要负责devops工作，参与私有云平台等。
+    - start: 2019-05
+      end: 2022-04
       company: 杭州沃趣科技股份有限公司
       job: 后端开发工程师
       detail: 主要负责QDataCloud监控告警模块负责人，通过Promtheus、Alertmanager、Grafana、Loki等组件集成和二次开发，实现服务器软硬件的监控告警，参与运维平台功能开发等。获2020年度“百折不挠奖”。
@@ -92,6 +97,9 @@ experience:
 program:
   desc: 下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，部分项目无法访问，请见谅！</b>
   programs:
+    - name: 统信集中域管平台
+      link: 'javascript: void(0);'
+      desc: 统信软件结合统信UOS操作系统，深度开发适合linux桌面系统集中管控运维平台。提供LDAP、架构组织、系统更新、数据报表等集中管控功能。
     - name: QData-Cloud数据库一体机运维平台
       link: 'javascript: void(0);'
       desc: 沃趣科技QData产品web管理平台，由tornado框架构建而成。基于web页面我们可对oracle数据库一体机进行集群管理，监控可视化，告警配置等操作，极大提高了运维效率。
