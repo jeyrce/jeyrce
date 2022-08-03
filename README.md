@@ -1,7 +1,7 @@
 🌈 关于我
 ---
 
-<img width="100%" src="http://oss.ioseek.cn/x/gopher-run.gif" alt="gopher">
+<img width="100%" src="http://oss.imseek.cn/x/gopher-run.gif" alt="gopher">
 
 * 我是一名来自中国武汉的 Go/Python 后端工程师。
 
@@ -14,11 +14,11 @@
 
 - 乐于思考，长期活跃在GitHub和stackoverflow上，在各大开源项目提过不少issue。
 
-- 搭建了 [个人博客](https://ioseek.cn/) , 分享一些后端开发经验，偶尔也写一写文学作品。
+- 搭建了 [个人博客](https://imseek.cn/) , 分享一些后端开发经验，偶尔也写一写文学作品。
 
 - 爱读书，爱听歌，爱骑车，爱桌球。代码不是生活的全部。
 
-<img width="494px" src="http://oss.ioseek.cn/mp-white-min.png" alt="mp"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jeyrce&theme=github" alt="">
+<img width="494px" src="http://oss.imseek.cn/mp-white-min.png" alt="mp"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jeyrce&theme=github" alt="">
 
 <!--
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeyrce&theme=github)

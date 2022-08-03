@@ -12,7 +12,7 @@ ARG commitId
 LABEL commitId="${commitId}" \
       maintainer="jeyrce<jeyrce@gmail.com>" \
       gitRepo="https://github.com/jeyrce/jeyrce" \
-      page="https://ioseek.cn/"
+      page="https://imseek.cn/"
 WORKDIR /jeyrce
 COPY . .
 COPY --from=builder /jeyrce/index.html .
