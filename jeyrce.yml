@@ -3,7 +3,7 @@
 # 也可直接使用dockerfile进行构建镜像自包含nginx代理服务
 
 # --------------------------------header部分---------------------------------
-title: 信息展示-Jeyrce.Lu
+title: 信息展示 | Jeyrce.Lu 的个人主页
 icon: http://blog.lujianxin.com/static/image/favicon.ico
 keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce
 description: 一个为实现coding自由而coding的程序员
@@ -128,5 +128,5 @@ contact:
 footer:
   lines:
     - 千里马常有而伯乐不常有，你会成为我的伯乐么？
-  home: https://ioseek.cn/
+  home: https://imseek.cn/
 

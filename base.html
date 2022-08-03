@@ -15,7 +15,8 @@
     <title>{{ title }}</title>
     <meta name="keywords" content="{{ keywords }}">
     <meta name="description" content="{{ description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -49,7 +50,8 @@
                         <div class="navbar navbar-inverse navbar-static-top">
                             <div class="container">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target=".navbar-collapse">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
@@ -107,7 +109,8 @@
                 {% for item in skill.skills %}
                 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
                     <div class=" col-xs-12 skills">
-                        <span class="chart skilBg" data-percent="{{ item.percent }}"><span class="percent"></span></span>
+                        <span class="chart skilBg" data-percent="{{ item.percent }}"><span
+                                class="percent"></span></span>
                         <h4>{{ item.name }}</h4>
                     </div>
                 </div>
@@ -190,12 +193,10 @@
             <br>
             <div class="for_the_record">
                 <p><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">浙ICP备18053740号-2</a></p>
-                <p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802010917">浙公网安备33010802010917号</a></p>
+                <p><a target="_blank"
+                      href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802010917">浙公网安备33010802010917号</a>
+                </p>
             </div>
-            <!--            <ul>-->
-            <!--                <li><a href="{{ footer.home }}" target="_blank"><i class="icon icon-github icon-2x"></i></a></li>-->
-            <!--            </ul>-->
-            <!--回到顶部-->
             <span class="totop"><i class="icon icon-chevron-up"></i></span>
         </div>
     </section>
