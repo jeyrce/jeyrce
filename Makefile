@@ -1,6 +1,6 @@
 version=2021
 hub=docker.io
-imageName=jeyrce/jeyrce:version
+imageName=jeyrce/jeyrce:${version}
 tag=${hub}/${imageName}
 commitId=$(shell git rev-parse --short HEAD)
 
