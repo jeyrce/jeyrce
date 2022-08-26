@@ -8,8 +8,6 @@ __pycache__/
 .idea/
 *.iml
 *.xml
-# 运行时内容不进行版本控制
-index.html
 
 # C extensions
 *.so

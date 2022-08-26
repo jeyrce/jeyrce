@@ -1,0 +1,447 @@
+<!--
+1. 此模板进行一键渲染，最后丢回前端的是静态页面，修改时只需修改yml文件。
+2. 之所以不用ajax直接从json读取原因是，这样大量使用js渲染对于seo不友好。
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="shortcut icon" href="http://blog.lujianxin.com/static/image/favicon.ico"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <meta name="google-site-verification-x" content="C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw49"/>
+    
+    <title>信息展示 | Jeyrce.Lu 的个人主页</title>
+    <meta name="keywords" content="个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce">
+    <meta name="description" content="一个为实现coding自由而coding的程序员">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="wrapper" id="wrapper">
+    <header>
+        <!--    轮播图    -->
+        <div class="banner row" id="banner">
+            <!--     background img       -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg1.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg2.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg3.jpg" width="1024" height="682" alt="">
+                </div>
+                
+                <div class="slide">
+                    <img src="images/header-image/header-bg4.jpg" width="1024" height="682" alt="">
+                </div>
+                
+            </div>
+            <!--      轮播图文字部分      -->
+            <div class="bannerText container">
+                <h1>我叫陆鉴鑫(Jeyrce.Lu)</h1>
+                <p>后端开发工程师(python，golang)，2018至今从事云计算、devops等领域工作。</p>
+                <a href="#aboutme" class="mbnt">查看详情</a>
+            </div>
+        </div>
+        <!--  菜单条  -->
+        <div class="menu">
+            <div class="navbar-wrapper">
+                <div class="container">
+                    <div class="navwrapper">
+                        <div class="navbar navbar-inverse navbar-static-top">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                            data-target=".navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">导航</a>
+                                </div>
+                                <div class="navbar-collapse collapse">
+                                    <ul class="nav navbar-nav nav-justified">
+                                        <li class="first menuItem homeLink active"><a href="#wrapper">首页</a></li>
+                                        <li class="menuItem"><a href="#aboutme">关于我</a></li>
+                                        <li class="menuItem"><a href="#technical">技能</a></li>
+                                        <li class="menuItem"><a href="#experience">经历</a></li>
+                                        <li class="menuItem"><a href="#references">项目</a></li>
+                                        <li class="menuItem"><a href="#contact">联系我</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--   关于我   -->
+    <section class="aboutme" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+                    <div class="heading clearfix"><h2>关于我</h2></div>
+                    <div id="description">
+                        <!--描述-->
+                        
+                        <p>我是来自武汉的后端开发工程师，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。</p>
+                        
+                        <p>有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用；</p>
+                        
+                        <p>目前主要负责团队监控告警业务模块，基于<b>prometheus</b>相关组件结合业务需求进行二次开发。</p>
+                        
+                        <p>爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。</p>
+                        
+                    </div>
+                    <!--地址连接-->
+                    <div class="aboutmeLinks">
+                        
+                        <a href="https://lujianxin.com/" class="btnDownload" target="_blank">个人主页</a>
+                        
+                        <a href="https://github.com/jeyrce" class="btnDownload" target="_blank">github</a>
+                        
+                        <a href="http://blog.lujianxin.com/" class="btnDownload" target="_blank">个人博客【旧版】</a>
+                        
+                        <a href="https://imseek.cn/" class="btnDownload" target="_blank">修齐方法论</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  技能掌握  -->
+    <section class="technical" id="technical">
+        <div class="container">
+            <div class="heading">
+                <h2 id="technical_title">技能</h2>
+                <p>熟练使用 Golang/Python 编程语言进行服务端开发或服务器工具开发。以下是我的技能及掌握情况。</p>
+            </div>
+            <!--技能列表-->
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="85"><span
+                                class="percent"></span></span>
+                        <h4>熟练掌握Prometheus，Alertmanger监控告警架构，有自己的技术沉淀</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="80"><span
+                                class="percent"></span></span>
+                        <h4>熟练掌握gin, gorm为代表的resultful框架</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="85"><span
+                                class="percent"></span></span>
+                        <h4>熟练掌握以Django、Tornado 为代表的web开发框架</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>熟练使用mysql, redis, mongodb 等常用SQL/NoSQL数据库</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>熟练使用Linux服务器, Docker、swarm等容器开发部署环境</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>有大量处理客户现场问题的经验和方法沉淀</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="70"><span
+                                class="percent"></span></span>
+                        <h4>良好的沟通演讲能力，曾多次组织项目复盘和技术分享会</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="50"><span
+                                class="percent"></span></span>
+                        <h4>熟悉k8s云原生相关技术组件</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="50"><span
+                                class="percent"></span></span>
+                        <h4>了解js注入，SQL注入，shell注入原理及常见攻防策略</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="50"><span
+                                class="percent"></span></span>
+                        <h4>了解消息队列，分布式锁等分布式组件</h4>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+                    <div class=" col-xs-12 skills">
+                        <span class="chart skilBg" data-percent="50"><span
+                                class="percent"></span></span>
+                        <h4>了解服务器，磁盘，网络，交换机等硬件知识</h4>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--  工作经历  -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="heading">
+                <h2>经历</h2>
+                <p>2018年6月毕业于湖北汽车工业学院，开始了自己的后端开发工程师生涯。</p>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2022-05</span>
+                        <span class="afterY">至今</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>统信软件技术有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>主要负责devops工作，参与私有云平台等。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2019-05</span>
+                        <span class="afterY">2022-04</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>杭州沃趣科技股份有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>主要负责QDataCloud监控告警模块负责人，通过Promtheus、Alertmanager、Grafana、Loki等组件集成和二次开发，实现服务器软硬件的监控告警，参与运维平台功能开发等。获2020年度“百折不挠奖”。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2018-06</span>
+                        <span class="afterY">2019-03</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>杭州麦杰思物联网科技有限公司</h4>
+                        <h5>后端开发工程师</h5>
+                        <p>一家以新零售为风口的创业型公司，主要产品是无人货柜，2018年11月被杭州中亚机械股份有限公司收购。以小程序Spriteye为用户入口，利用重力+视觉算法识别商品，互联网技术为连接实现的无人货柜。</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row workDetails">
+                <!-- 时间信息 -->
+                <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+                    <div class="workYear">
+                        <span class="prevY">2014-09</span>
+                        <span class="afterY">2018-06</span>
+                    </div>
+                </div>
+                <!--描述信息-->
+                <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+                    <div class="arrowpart"></div>
+                    <div class="exCon">
+                        <h4>湖北汽车工业学院</h4>
+                        <h5>电子信息工程</h5>
+                        <p>在校主修课程：Python、c语言、数据结构、计算机网络、汇编原理、单片机、FPGA、DSP等。曾获荣誉：人民奖学金三等、优秀志愿工作者、志愿者社团宣传部长、CET4等。</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- 项目经验 -->
+    <section class="references" id="references">
+        <div class="container">
+            <div class="heading">
+                <h2>项目</h2>
+                <p>下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，部分项目无法访问，请见谅！</b></p>
+            </div>
+            <div class="row waterfall" data-col-min-width="300">
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">统信集中域管平台</a></h3>
+                        <br>
+                        <p>统信软件结合统信UOS操作系统，深度开发适合linux桌面系统集中管控运维平台。提供LDAP、架构组织、系统更新、数据报表等集中管控功能。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">QData-Cloud数据库一体机运维平台</a></h3>
+                        <br>
+                        <p>沃趣科技QData产品web管理平台，由tornado框架构建而成。基于web页面我们可对oracle数据库一体机进行集群管理，监控可视化，告警配置等操作，极大提高了运维效率。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">基于opencv的无人货柜人脸识别系统</a></h3>
+                        <br>
+                        <p>采用opencv + baidu-aip + pyqt5和平板电脑，实现了用户注册账户并录入人脸后, 无需携带手机, 刷脸即可在无人货柜开门购物, 关门自动结算。产品已经成功在2019第七届中国(广州)国际自助售货系统与设施博览会展出, 获得了良好的评价。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">U选便利后台管理系统和小程序</a></h3>
+                        <br>
+                        <p>使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人货柜后台管理以及支付宝小程序后端系统，系统和小程序现已在线上稳定运行。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="javascript: void(0);" target="_blank">联华鲸选无人便利店后台管理系统</a></h3>
+                        <br>
+                        <p>使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人便利店后台管理系统部分模块，系统暂未上线运行。主要参与了后台管理系统中审批流程、权限系统、ERP系统的设计，实现了商品队列流转机制、权限和审批流程自由搭配的功能模块，设计预留了城配物流、亲情账户等备用功能模块。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="https://www.lujianxin.com/" target="_blank">个人博客</a></h3>
+                        <br>
+                        <p>因为我本身喜欢读写博客，索性自己购买域名和服务器自己动手搭建一个自己的专属博客。博客采用django + redis + nginx + xadmin + ueditor等插件完成，访客部分则采用来必力云评论插件完成。</p>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+                    <div class="refBoxcon">
+                        <h3><a href="https://github.com/jeeyshe/django-date-dump" target="_blank">django-date-dump</a></h3>
+                        <br>
+                        <p>基于django-restframework框架开发的一个小插件，用以通过简单的配置快速对django的model表导出excel表格，其中字段自定义，自持扩展，sheet数量自定义。</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--联系我-->
+    <section class="contact" id="contact">
+        <div class="container topCon">
+            <div class="heading">
+                <h2>联系我</h2>
+            </div>
+        </div>
+    </section>
+    <!--联系方式-->
+    <section class="contactDetails">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p><i class="icon icon-envelope"></i><a>jeyrce@gmail.com</a></p>
+                <p><i class="icon icon-link"></i><a href="https://www.lujianxin.com/" target="_blank">https://www.lujianxin.com/</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="container">
+            
+            <div style="text-align: center"><p>千里马常有而伯乐不常有，你会成为我的伯乐么？</p></div>
+            
+            <br>
+            <div class="for_the_record">
+                <p><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">浙ICP备18053740号-2</a></p>
+                <p><a target="_blank"
+                      href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802010917">浙公网安备33010802010917号</a>
+                </p>
+            </div>
+            <span class="totop"><i class="icon icon-chevron-up"></i></span>
+        </div>
+    </section>
+</div>
+
+<!--js代码-->
+<script src="./js/jquery-2.1.4.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/jquery.waterfall.js"></script>
+<script src="./js/stickUp.js"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $(document).ready(function () {
+            //enabling stickUp on the '.navbar-wrapper' class
+
+            $('.navbar-wrapper').stickUp({
+                parts: {
+                    0: 'wrapper',
+                    1: 'aboutme',
+                    2: 'technical',
+                    3: 'experience',
+                    4: 'references',
+                    5: 'contact'
+                },
+                itemClass: 'menuItem',
+                itemHover: 'active',
+                topMargin: 'auto'
+            });
+        });
+    });
+</script>
+<script src="./js/jquery.superslides.js"></script>
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/custom.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+
+</body>
+
+</html>
