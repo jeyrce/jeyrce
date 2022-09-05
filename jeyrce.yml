@@ -21,6 +21,7 @@ banner:
     - images/header-image/header-bg3.jpg
     - images/header-image/header-bg4.jpg
   desc:
+    avatar: images/avatar.jpeg
     title: 我叫陆鉴鑫(Jeyrce.Lu)
     detail: 后端开发工程师(python，golang)，2018至今从事云计算、devops等领域工作。
 
