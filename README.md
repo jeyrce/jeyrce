@@ -18,7 +18,7 @@
 
 - 爱读书，爱听歌，爱骑车，爱桌球。代码不是生活的全部。
 
-<img width="494px" src="http://oss.imseek.cn/mp-white-min.png" alt="mp"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jeyrce&theme=github" alt="">
+<img width="494px" src="http://oss.xoo.site/imseek/mp-mini.png" alt="mp"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=jeyrce&theme=github" alt="">
 
 <!--
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jeyrce&theme=github)
