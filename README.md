@@ -7,7 +7,7 @@
 
 * 现就职于 [武汉统信软件技术有限公司](https://www.uniontech.com)。
 
-* 专注于云计算、服务端开发。
+* 专注于云计算、服务端开发、devops等。
 
 [![Jeyrce's github stars](https://github-readme-stats.vercel.app/api?username=jeyrce)](https://github.com/jeyrce)
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeyrce&theme=github" alt="">
