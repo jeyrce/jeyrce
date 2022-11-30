@@ -5,7 +5,7 @@
 
 * 我是一名来自中国武汉的 Go/Python 后端工程师。
 
-* 现就职于 [武汉统信软件技术有限公司](https://www.uniontech.com)。
+* 现就职于 [统信软件](https://www.uniontech.com)。
 
 * 专注于云计算、服务端开发、devops等。
 
