@@ -1,7 +1,7 @@
 🌈 关于我
 ---
 
-<img width="100%" src="http://oss.imseek.cn/x/gopher-run.gif" alt="gopher">
+<img width="100%" src="http://oss.xoo.site/x/gopher-run.gif" alt="gopher">
 
 * 我是一名来自中国武汉的 Go/Python 后端工程师。
 
