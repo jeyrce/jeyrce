@@ -2,7 +2,6 @@
 # 之后可以使用github pages 等托管服务进行托管
 # 也可直接使用dockerfile进行构建镜像自包含nginx代理服务
 
-# --------------------------------header部分---------------------------------
 title: 信息展示 | Jeyrce.Lu 的个人主页
 icon: http://blog.lujianxin.com/static/image/favicon.ico
 keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce
@@ -13,7 +12,7 @@ seo:
   - key: google-site-verification-x
     value: C2ujkHLAjxkyD2SXrnXNeoZum0YsZcl832GvR3XBTw49
 
-# --------------------------------轮播图---------------------------------
+# 轮播图
 banner:
   images:
     - images/header-image/header-bg1.jpg
@@ -25,12 +24,12 @@ banner:
     title: 我叫陆鉴鑫(Jeyrce.Lu)
     detail: 后端开发工程师(python，golang)，2018至今从事云计算、devops等领域工作。
 
-# --------------------------------关于我---------------------------------
+# 关于我
 aboutme:
   lines:
-    - 我是来自武汉的后端开发工程师，2018年07月份开始第一份后端开发工作，至今已经有三年后端开发经验。
-    - 有着坚实的后端开发基础，并且一直保持对新技术的学习热情。主要开发语言为Python和Golang，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、monodb、oracle使用；
-    - 目前主要负责团队监控告警业务模块，基于<b>prometheus</b>相关组件结合业务需求进行二次开发。
+    - 我是来自武汉的软件工程师，2018年07月份开始第一份后端开发工作。有着坚实的后端开发基础，并且一直保持对新技术的学习热情。
+    - 主要开发语言为Golang、Python、shell等，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉mysql、redis、mongodb、oracle使用；
+    - 目前主要负责团队CI/CD、devops基础设施建设，对ToB业务有自己的技术和经验沉淀。
     - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
   links:
     - url: https://lujianxin.com/
@@ -38,46 +37,44 @@ aboutme:
     - url: https://github.com/jeyrce
       title: github
     - url: http://blog.lujianxin.com/
-      title: 个人博客【旧版】
+      title: 【博客】blog
     - url: https://imseek.cn/
-      title: 修齐方法论
+      title: 【公众号】修齐方法论
 
-# --------------------------------技能---------------------------------
+# 技能
 skill:
   desc: 熟练使用 Golang/Python 编程语言进行服务端开发或服务器工具开发。以下是我的技能及掌握情况。
   skills:
-    - name: 熟练掌握Prometheus，Alertmanger监控告警架构，有自己的技术沉淀
-      percent: 85
+    - name: 熟练使用Linux服务器, k8s、Docker、swarm等容器开发部署环境，熟悉云原生领域知识。
+      percent: 80
+    - name: 有大量处理ToB问题的经验和方法沉淀，曾多次组织项目复盘和技术分享会。
+      percent: 80
+    - name: 熟练掌握Prometheus，Alertmanger监控告警架构，有自己的技术沉淀。
+      percent: 80
+    - name: 熟练掌握以gitlab-ci、ansible为代表的devops工具，热衷解决基础设施建设问题。
+      percent: 80
     - name: 熟练掌握gin, gorm为代表的resultful框架
       percent: 80
     - name: 熟练掌握以Django、Tornado 为代表的web开发框架
-      percent: 85
+      percent: 80
     - name: 熟练使用mysql, redis, mongodb 等常用SQL/NoSQL数据库
       percent: 70
-    - name: 熟练使用Linux服务器, Docker、swarm等容器开发部署环境
-      percent: 70
-    - name: 有大量处理客户现场问题的经验和方法沉淀
-      percent: 70
-    - name: 良好的沟通演讲能力，曾多次组织项目复盘和技术分享会
-      percent: 70
-    - name: 熟悉k8s云原生相关技术组件
-      percent: 50
     - name: 了解js注入，SQL注入，shell注入原理及常见攻防策略
-      percent: 50
+      percent: 60
     - name: 了解消息队列，分布式锁等分布式组件
-      percent: 50
+      percent: 60
     - name: 了解服务器，磁盘，网络，交换机等硬件知识
-      percent: 50
+      percent: 60
 
-# --------------------------------工作经历---------------------------------
+# 履历
 experience:
-  desc: 2018年6月毕业于湖北汽车工业学院，开始了自己的后端开发工程师生涯。
+  desc: 2018年6月毕业后，开始了自己的开发工程师生涯，至今奋斗在技术一线。
   works:
     - start: 2022-05
       end: 至今
-      company: 统信软件技术有限公司
+      company: 统信软件技术有限公司(武汉)
       job: 后端开发工程师
-      detail: 主要负责devops工作，参与私有云平台等。
+      detail: 主要负责devops基础设施建设，参与私有云平台开发等。
     - start: 2019-05
       end: 2022-04
       company: 杭州沃趣科技股份有限公司
@@ -94,7 +91,7 @@ experience:
       job: 电子信息工程
       detail: 在校主修课程：Python、c语言、数据结构、计算机网络、汇编原理、单片机、FPGA、DSP等。曾获荣誉：人民奖学金三等、优秀志愿工作者、志愿者社团宣传部长、CET4等。
 
-# --------------------------------项目经验---------------------------------
+# 项目经验
 program:
   desc: 下面包括了自己的开源项目，公司项目，推荐的网站等。<br><b>出于职业道德和法律约束，部分项目无法访问，请见谅！</b>
   programs:
@@ -120,12 +117,12 @@ program:
       link: https://github.com/jeeyshe/django-date-dump
       desc: 基于django-restframework框架开发的一个小插件，用以通过简单的配置快速对django的model表导出excel表格，其中字段自定义，自持扩展，sheet数量自定义。
 
-# --------------------------------联系方式---------------------------------
+# 联系方式
 contact:
   email: jeyrce@gmail.com
-  page: https://www.lujianxin.com/
+  page: https://lujianxin.com/
 
-# --------------------------------网站底部---------------------------------
+# 底部信息
 footer:
   lines:
     - 千里马常有而伯乐不常有，你会成为我的伯乐么？

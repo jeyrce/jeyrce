@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.8.12-slim AS builder
+FROM python:3.8.12-slim AS builder
 WORKDIR /jeyrce
 COPY base.html jeyrce.yml make.py requirements.txt ./
 RUN pip install -r requirements.txt \
@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt \
     --no-cache-dir && \
     python make.py
 
-FROM --platform=linux/amd64 nginx:1.22.0-alpine AS runner
+FROM nginx:1.23.2-alpine AS runner
 ARG commitId
 LABEL commitId="${commitId}" \
       maintainer="jeyrce<jeyrce@gmail.com>" \
