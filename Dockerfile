@@ -1,7 +1,8 @@
 FROM python:3.8.12-slim AS builder
 WORKDIR /jeyrce
 COPY base.html jeyrce.yml make.py requirements.txt ./
-RUN pip install -r requirements.txt \
+RUN pip install -U pip && \
+    pip install -r requirements.txt \
     -i https://mirrors.aliyun.com/pypi/simple/  \
     --trusted-host mirrors.aliyun.com \
     --no-cache-dir && \
