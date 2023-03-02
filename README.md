@@ -3,7 +3,7 @@
 
 * 我是一名来自中国武汉的 Go/Python 后端工程师 ([个人主页](https://lujianxin.com/))。
 
-* 现就职于 [统信软件](https://www.uniontech.com)，专注于云计算、服务端开发、devops等领域。
+* 现就职于 [腾讯CSIG](https://www.tencent.com/zh-cn/about.html#about-con-4)，专注于云计算、服务端开发、devops等领域。
 
 [![Jeyrce's github stars](https://github-readme-stats.vercel.app/api?username=jeyrce)](https://github.com/jeyrce)
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=jeyrce&theme=github" alt="">
