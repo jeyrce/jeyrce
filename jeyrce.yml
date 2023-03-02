@@ -53,7 +53,7 @@ skill:
       percent: 80
     - name: 熟练掌握以gitlab-ci、ansible为代表的devops工具，热衷解决基础设施建设问题。
       percent: 80
-    - name: 熟练掌握和应用常用Golang/Python主流restful框架(Gin、beego、go-zero、Django、flask、tornado)。
+    - name: 熟练掌握和应用常用Golang/Python主流restful框架(GoFrame、Gin、beego、go-zero、Django、flask、tornado)。
       percent: 80
     - name: 熟练使用mysql, redis, mongodb 等常用SQL/NoSQL数据库，了解其常用数据复制高可用架构原理。
       percent: 70
@@ -68,8 +68,13 @@ skill:
 experience:
   desc: 2018年6月毕业后，开始了自己的开发工程师生涯，至今奋斗在技术一线。
   works:
-    - start: 2022-05
+    - start: 2023-03
       end: 至今
+      company: 腾讯CSIG
+      job: 开发工程师
+      detail: 主要负责TDSQL产品自动化部署，参与私有云产品开发等。
+    - start: 2022-05
+      end: 2023-02
       company: 统信软件技术有限公司(武汉)
       job: 后端开发工程师
       detail: 主要负责devops基础设施建设，参与私有云平台开发等。
