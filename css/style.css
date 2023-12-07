@@ -4,8 +4,8 @@
     font-weight: 400;
     src: url('../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot');
     src: local('Open Sans'), local('OpenSans'),
-        url('../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot') format('embedded-opentype'),
-        url('../font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+    url('../font/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot') format('embedded-opentype'),
+    url('../font/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
 
 * {
@@ -243,11 +243,11 @@ header {
     display: none;
 }
 
-.nav>li>a {
+.nav > li > a {
     display: inline-block;
 }
 
-.navbar-nav>li {
+.navbar-nav > li {
     float: none;
     display: inline;
 }
@@ -264,7 +264,8 @@ header {
 }
 
 .navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {}
+.navbar-inverse .navbar-toggle:focus {
+}
 
 .navbar-brand {
     margin-top: 4px;
@@ -316,8 +317,8 @@ header {
     line-height: 140px;
     text-align: center;
     font-weight: 800;
-    / / transition-duration: 0.2 s;
-    / / -webkit-transition-duration: 0.2 s;
+/ / transition-duration: 0.2 s;
+/ / -webkit-transition-duration: 0.2 s;
 }
 
 .navbar.navbar-inverse.navbar-static-top .nav li.first {
@@ -338,21 +339,21 @@ header {
     color: #ef7674;
 }
 
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus {
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus {
     background: #ffffff;
     /*color:#c3c8d6;*/
     color: #ef7674;
 }
 
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-nav>li>a:focus {
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
     background: #ffffff;
     /*color:#c3c8d6;*/
     color: #ef7674;
 }
 
-.navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav > .active > a:hover {
     /*background:#1b1f29;*/
     /*color:#fff;*/
     background: #ffffff;
@@ -379,8 +380,8 @@ header {
 }
 
 .aboutCont {
-    / / padding-bottom: 78 px;
-    / / padding-left: 48 px;
+/ / padding-bottom: 78 px;
+/ / padding-left: 48 px;
 }
 
 .aboutmeLinks {
@@ -388,10 +389,10 @@ header {
 }
 
 #description {
-    / / height: 250 px;
+/ / height: 250 px;
     overflow: hidden;
     position: relative;
-    / / padding-right: 50 px;
+/ / padding-right: 50 px;
     margin-bottom: 60px;
     text-align: justify;
 }
@@ -638,7 +639,8 @@ header {
  14. references Style
 ------------------------------------------------------*/
 
-.references {}
+.references {
+}
 
 .references .container {
     padding-top: 140px;
@@ -826,7 +828,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 200px;
         aspect-ratio: 1;
@@ -873,7 +875,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 160px;
         aspect-ratio: 1;
@@ -932,7 +934,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 100px;
         aspect-ratio: 1;
@@ -964,7 +966,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 86px;
         aspect-ratio: 1;
@@ -1005,7 +1007,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 86px;
         aspect-ratio: 1;
@@ -1027,7 +1029,7 @@ header {
         width: 100%;
     }
 
-    .person_img>span {
+    .person_img > span {
         display: inline-block;
         width: 86px;
         aspect-ratio: 1;

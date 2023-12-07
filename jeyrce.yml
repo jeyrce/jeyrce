@@ -16,13 +16,14 @@ seo:
 banner:
   images:
     - images/header-image/header-bg1.jpg
-    - images/header-image/header-bg2.jpg
+    # - images/header-image/header-bg2.jpg
     - images/header-image/header-bg3.jpg
     - images/header-image/header-bg4.jpg
+    # - images/header-image/header-bg5.jpg
   desc:
     avatar: images/avatar.jpeg
-    title: 我叫陆鉴鑫(Jeyrce.Lu)
-    detail: 后端开发工程师(python，golang)，2018至今从事云计算、devops等领域工作，在领域内积累了大量经验和技术沉淀。
+    title: 陆鉴鑫(Jeyrce.Lu)
+    detail: 一名为coding自由而coding的后端开发工程师(python，golang)，从事云计算、devops等领域工作，在领域内积累了大量经验和技术沉淀。
 
 # 关于我
 aboutme:
@@ -30,20 +31,18 @@ aboutme:
     - 我是来自武汉的软件工程师，2018年07月份开始第一份后端开发工作。有着坚实的知识基础，并且一直保持对新技术的学习热情。
     - 主要开发语言为Golang、Python、shell等，熟悉django、flask、tornado、beego、gin等主流web框架，熟悉以mysql、redis为代表的SQL、NoSQL主流数据库技术；
     - 目前主要负责团队CI/CD、集群高可用、基础设施建设等(devops)，在ToB业务领域有自己的技术和经验沉淀。
-    - 爱骑车、桌球、下棋、读写博客、听音乐、公益，代码不是生活的全部。
+    - 爱骑车、桌球、下棋、读书写字、听音乐、公益，代码不是生活的全部。
   links:
-    - url: https://lujianxin.com/
-      title: 个人主页
     - url: https://github.com/jeyrce
       title: github
     - url: http://blog.lujianxin.com/
-      title: 【博客】blog
+      title: 博客(旧)
     - url: https://imseek.cn/
-      title: 【公众号】修齐方法论
+      title: 知平(新)
 
 # 技能
 skill:
-  desc: 熟练使用 Golang/Python/shell 编程语言进行服务端开发或服务器工具开发。以下是我的技能及掌握情况。
+  desc: 熟练使用 Golang/Python/shell 编程语言进行服务端开发或服务器工具开发。
   skills:
     - name: 熟练使用Linux服务器, k8s、Docker、swarm等容器开发部署环境，有operator开发经验。
       percent: 80
@@ -70,7 +69,7 @@ experience:
   works:
     - start: 2023-03
       end: 至今
-      company: 腾讯(CSIG/TEG)
+      company: 腾讯云(CSIG/TEG)
       job: 开发工程师
       detail: 主要负责TDSQL产品自动化部署、秒级监控平台、参与私有云产品开发等。
     - start: 2022-05
@@ -102,18 +101,18 @@ program:
       link: "https://www.uniontech.com/next/product/control"
       desc: 统信软件结合统信UOS操作系统，深度开发适合linux桌面系统集中管控运维平台。提供LDAP、架构组织、系统更新、数据报表等集中管控功能。
     - name: QData-Cloud数据库一体机
-      link: 'http://www.woqutech.com/products.php?id=133'
+      link: 'https://www.woqutech.com/QData.html'
       desc: 沃趣科技QData产品web管理平台，由tornado框架构建而成。基于web页面我们可对oracle数据库一体机进行集群管理，监控可视化，告警配置等操作，极大提高了运维效率。
     - name: QFusion数据库私有云平台
-      link: "https://irds.cn/"
+      link: "https://irds.cn/product"
       desc: 基于k8s云原生技术栈开发的企业级数据库云平台，主要参与其中MySQL、Redis数据库PaaS服务，目前已在线上稳定运行。
     - name: 基于opencv的无人货柜人脸识别系统
-      link: "http://magexiot.com/intelligent.html"
+      link: "javascript: void(0);"
       desc: 采用opencv + baidu-aip + pyqt5和平板电脑，实现了用户注册账户并录入人脸后, 无需携带手机, 刷脸即可在无人货柜开门购物, 关门自动结算。产品已经成功在2019第七届中国(广州)国际自助售货系统与设施博览会展出, 获得了良好的评价。
     - name: U选便利后台管理系统和小程序
       link: 'javascript: void(0);'
       desc: 使用Mysql, Redis数据库，Django-Restfrmework后端框架，Nginx+uwsgi服务器部署，完成了无人货柜后台管理以及支付宝小程序后端系统，系统和小程序现已在线上稳定运行。
-    - name: 【开源项目】Nightingale | 夜莺监控(5.8k star)
+    - name: 【开源项目】Nightingale | 夜莺监控(8k star)
       link: https://flashcat.cloud/product/nightingale/
       desc: 一款all-in-one风格开源监控告警系统，主要参与其中告警通知方式的集成扩展，贡献了一种基于golang-plugin的告警通知方式。
 
@@ -126,5 +125,5 @@ contact:
 footer:
   lines:
     - 千里马常有而伯乐不常有，你会成为我的伯乐么？
-  home: https://imseek.cn/
+  home: https://lujianxin.com/
 
