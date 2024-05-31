@@ -4,7 +4,7 @@
 
 title: 信息展示 | Jeyrce.Lu 的个人主页
 icon: http://blog.lujianxin.com/static/image/favicon.ico
-keywords: 个人简历、陆鉴鑫、web简历、Python开发、go开发、后端工程师、jeyrce、云原生、devops、运维开发
+keywords: 个人简历、陆知平、web简历、Python开发、go开发、后端工程师、jeyrce、云原生、devops、运维开发
 description: 一个为实现coding自由而coding的程序员
 
 # seo平台验证
@@ -22,7 +22,7 @@ banner:
     # - images/header-image/header-bg5.jpg
   desc:
     avatar: images/avatar.jpeg
-    title: 陆鉴鑫(Jeyrce.Lu)
+    title: 陆知平(Jeyrce.Lu)
     detail: 一名为coding自由而coding的后端开发工程师(python，golang)，从事云计算、devops等领域工作，在领域内积累了大量经验和技术沉淀。
 
 # 关于我
@@ -38,7 +38,7 @@ aboutme:
     - url: http://blog.lujianxin.com/
       title: 博客(旧)
     - url: https://imseek.cn/
-      title: 知平(新)
+      title: 不止平凡(新)
 
 # 技能
 skill:
